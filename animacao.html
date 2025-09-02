@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
+        div{
+            animation: subir 1s none 0s infinite;
+        }
         .quadrado{
             top: 50%;
             left: 50%;
@@ -11,11 +14,17 @@
             width: 200px;
             height: 200px;
         }
+        @keyframes subir{
+            0%{}
+            100%{
+                top:0px;
+            }
+        }
     </style>
 
 </head>
 <body>
-    <div ><img class="quadrado" src="Ariabdul.jpg" alt=""></div>
+    <div  class="quadrado"><img src="Ariabdul.jpg" alt=""> </div>
     
 </body>
 </html>
